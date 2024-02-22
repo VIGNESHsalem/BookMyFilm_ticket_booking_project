@@ -1,0 +1,64 @@
+.bgimagefight
+{
+    background-color: #001539;
+    opacity: .9;
+    width: 100%;
+    background-size: cover;
+    color: white;
+ 
+}
+
+.moviename
+{
+    padding: 2%;
+    color: white;
+}
+
+.jorner
+{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    margin: 2%;
+    padding:2%;
+}
+
+.borderbottom
+{
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 2px;
+}
+
+.selectdate
+{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 8px;
+    font-size: small;
+    height: 50px;
+    width: 50px;
+}
+
+.selecttime
+{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 8px;
+    font-size: large;
+    height: 75px;
+    width: 160px;
+}
+
+.marginbottom
+{
+    margin-bottom: 8%;
+}
+
+.selectdatetime:hover{
+    background-color: #31D7A9;
+}

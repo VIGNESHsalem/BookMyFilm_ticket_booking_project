@@ -1,0 +1,142 @@
+
+
+.bgcolor
+{
+    background-color: rgb(112, 106, 199);
+}
+
+.bgimage
+{
+    background-image: url("https://i.pinimg.com/736x/64/40/e1/6440e1c6f7c3036e4ef3e64a89db160e.jpg");
+    background-image: blur;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.fontofhomecontent
+{
+    color: black;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+   
+}
+
+.bgtextpara
+{
+    color: black;
+    font-size: x-large;
+    text-align: center;
+}
+
+.theatername
+{
+    font-size: large;
+    font-family:cursive;
+    color:aliceblue;
+    text-align: center;
+}
+
+.searchimage
+{
+    background-image: url("images/searchimage.png");
+    padding: 30px;
+    opacity: .9;
+    background-size: cover;
+    margin-right: 3%;
+    margin-left: 3%;
+    width: 94%;
+    height: 300px;
+   
+}
+
+.welcomenote
+{
+    color: red;
+}
+
+.moviesearch
+{
+    color: whitesmoke;
+}
+
+.logo
+{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.icon{
+    background-color: #001539;
+}
+
+.searchbox
+{
+border-style: dotted;
+border-width: 2px;
+border-radius: 8px;
+margin-top: 3%;
+padding-bottom: 1%;
+font-size: large;
+}
+
+.image11:hover{
+    transform: scale(1.1);
+}
+
+.movielist
+{
+    text-align: center;
+    margin-left: 9%;
+}
+
+.text{
+    text-align: center;
+}
+
+.buttonsignin
+{
+    background-color: #001539;
+    color: white;
+    margin: 20px;
+}
+
+.signuphover:hover{
+    text-decoration: underline;
+    color: red  !important ;
+}
+
+.footercolor
+{
+    background-color: #0A1E5E;
+}
+
+.footericon:hover{
+    animation: rotateImg 3s linear infinite;
+    transform: scale(1.9);
+   }
+
+   @keyframes rotateImg {
+    100% {transform: rotate(360deg);}
+  }
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 1000px) {
+    .searchimage {
+        height: 500px;
+    }
+  }
